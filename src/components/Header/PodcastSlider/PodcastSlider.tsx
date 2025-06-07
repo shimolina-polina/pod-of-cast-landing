@@ -38,11 +38,11 @@ const Wrapper = styled.div`
 `;
 
 const cards = [
-  { title: 'Tesla Autopilot', image: '/src/assets/img/1.png' },
-  { title: 'Self–confidence', image: '/src/assets/img/2.png' },
-  { title: 'Perplexed Mind', image: '/src/assets/img/3.png' },
-  { title: 'Women’s Rights', image: '/src/assets/img/4.png' },
-  { title: 'Social Class', image: '/src/assets/img/5.png' },
+  { title: 'Tesla Autopilot', image: '/img/1.png' },
+  { title: 'Self–confidence', image: '/img/2.png' },
+  { title: 'Perplexed Mind', image: '/img/3.png' },
+  { title: 'Women’s Rights', image: '/img/4.png' },
+  { title: 'Social Class', image: '/img/5.png' },
 ];
 
 export default function PodcastSlider() {
