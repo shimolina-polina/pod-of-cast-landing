@@ -41,7 +41,7 @@ const TitleContainer = styled.div`
         position: absolute;
         content: '';
         display: inline-block;
-        background-image: url('src/assets/HeroShapeSwirl.svg');
+        background-image: url('/HeroShapeSwirl.svg');
         background-size: contain;
         background-repeat: no-repeat;
         width: 630px;
@@ -54,7 +54,7 @@ const TitleContainer = styled.div`
         position: absolute;
         content: '';
         display: inline-block;
-        background-image: url('src/assets/stars.png');
+        background-image: url('/stars.png');
         background-size: contain;
         background-repeat: no-repeat;
         width: 155px;
