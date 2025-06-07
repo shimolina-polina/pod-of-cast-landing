@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import MoreButton from "./MoreButton/MoreButton";
 
 const StyledAnchor = styled.a`
   font-weight: 700;
@@ -18,7 +19,10 @@ export default function Menus () {
         <div style={{display: 'flex', gap: '60px', alignItems: 'center'}}>
             <StyledAnchor href="#">Episodes</StyledAnchor>
             <StyledAnchor href="#">About</StyledAnchor>
-            <StyledAnchor href="#">More</StyledAnchor>
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '4px'}}>
+              <StyledAnchor href="#">More</StyledAnchor>
+              <MoreButton />
+            </div>
         </div>
     )
 }
