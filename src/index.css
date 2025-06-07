@@ -1,0 +1,56 @@
+
+/* 1. Сброс отступов, границ, шрифтов */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Установка базовых стилей для body */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 3. Удаление стандартного оформления ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 4. Удаление маркеров у списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 5. Удаление рамок и стилей у форм */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* 6. Делает кнопки кликабельными */
+button {
+  cursor: pointer;
+}
+
+/* 7. Изображения не выходят за пределы контейнера */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
