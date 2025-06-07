@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode } from 'swiper/modules';
 import styled from 'styled-components';
-import 'swiper/css';
 
 const Card = styled.div`
   width: 100%;
