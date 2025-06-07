@@ -9,7 +9,7 @@ interface IHeader {
 
  const Header: FC<IHeader> = () => {
     return (
-        <div style={{display: 'flex', flexDirection: 'column', width: '100vw', height: '1448px', backgroundColor: '#F7EDE8', alignItems: 'center'}}>
+        <div style={{display: 'flex', flexDirection: 'column', width: '100%', height: '1448px', backgroundColor: '#F7EDE8', alignItems: 'center'}}>
             <Navigation/>
             <Title />
             <PodcastSlider />
